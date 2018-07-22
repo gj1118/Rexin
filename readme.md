@@ -1,6 +1,6 @@
-## Theme - Rexin
+## Rexin
 
-Theme - Rexin is a combination of Soda and Default theme.
+Rexin is a combination of Soda and Default theme.
 
 ## Note
 
@@ -19,7 +19,7 @@ Works best with Monokai Pro color scheme
 ## Activation
 
 * Open your settings (`Sublime Text` → `Preferences` → `Settings`)
-* Replace the `theme` key with High-Sienna.sublime-theme
+* Replace the `theme` key with `Rexin.sublime-theme`
 
 theme": "YourPreviousTheme.sublime-theme", 
 "theme": "Rexin.sublime-theme",
