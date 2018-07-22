@@ -11,10 +11,10 @@ Works best with Monokai Pro color scheme
 
 ### Install manually
 
-* [Download](https://github.com/johansatge/sienna/archive/master.zip) the latest version of the project
-* Unzip it and rename the directory to `Theme - High-Sienna`
+* [Download](https://github.com/gj1118/Rexin/archive/master.zip) the latest version of the project
+* Unzip it and rename the directory to `Rexin`
 * Open your packages directory (`Sublime Text` → `Preferences` → `Browse Packages...`)
-* Move the `Theme - High-Sienna` directory there
+* Move the `Rexin` directory there
 
 ## Activation
 
@@ -22,7 +22,7 @@ Works best with Monokai Pro color scheme
 * Replace the `theme` key with High-Sienna.sublime-theme
 
 theme": "YourPreviousTheme.sublime-theme", 
-"theme": "High-Sienna.sublime-theme",
+"theme": "Rexin.sublime-theme",
 
 
 Then, restart Sublime Text.
