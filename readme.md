@@ -21,11 +21,15 @@ Works best with Monokai Pro color scheme
 * Open your settings (`Sublime Text` → `Preferences` → `Settings`)
 * Replace the `theme` key with `Rexin.sublime-theme`
 
-theme": "YourPreviousTheme.sublime-theme", 
-"theme": "Rexin.sublime-theme",
+`"theme": "YourPreviousTheme.sublime-theme"` 
+`"theme": "Rexin.sublime-theme"`
 
 
-Then, restart Sublime Text.
+If you see any anomalies, you might want to restart Sublime Text.
+
+## Settings
+* Use the following setting to make the size of tabs autowidth
+    - `"tabs_autowidth": true`
 
 
 
