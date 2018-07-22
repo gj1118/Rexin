@@ -1,8 +1,0 @@
-{
-    "version": "1.1.0",
-    "dependencies": [],
-    "platforms": ["*"],
-    "description": "A tweaked version of Soda and the Default theme",
-    "sublime_text": "*",
-    "url": "https://github.com/gj1118/Rexin"
-}
