@@ -37,7 +37,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "High-Sienna/assets/misc/tabset-background.png",
+        "layer0.texture": "Rexin/assets/misc/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
         "content_margin": [-4, 0, -4, 3],
@@ -63,7 +63,7 @@
         "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
-        "layer0.texture": "High-Sienna/assets/misc/tab-inactive.png",
+        "layer0.texture": "Rexin/assets/misc/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
@@ -77,13 +77,13 @@
     {
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer0.texture": "High-Sienna/assets/misc/tab-hover.png"
+        "layer0.texture": "Rexin/assets/misc/tab-hover.png"
     },
     // Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "High-Sienna/assets/misc/tab-active.png"
+        "layer0.texture": "Rexin/assets/misc/tab-active.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -106,7 +106,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [8, 8],
-        "layer0.texture": "High-Sienna/assets/tabs/close.png",
+        "layer0.texture": "Rexin/assets/tabs/close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0
     },
@@ -119,14 +119,14 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "High-Sienna/assets/tabs/dirty.png",
+        "layer0.texture": "Rexin/assets/tabs/dirty.png",
         "layer0.opacity": 0.5
     },
     // Tab close button hover
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.texture": "High-Sienna/assets/tabs/close-hover.png"
+        "layer0.texture": "Rexin/assets/tabs/close-hover.png"
     },
     // Tab close button pressed
     {
@@ -172,7 +172,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 6, 9, 7],
-        "layer0.texture": "High-Sienna/assets/tabs/dropdown.png",
+        "layer0.texture": "Rexin/assets/tabs/dropdown.png",
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -186,7 +186,7 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "High-Sienna/assets/tabs/arrow-left.png",
+        "layer0.texture": "Rexin/assets/tabs/arrow-left.png",
         "layer0.tint": [240, 240, 240],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -200,7 +200,7 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "High-Sienna/assets/tabs/arrow-right.png",
+        "layer0.texture": "Rexin/assets/tabs/arrow-right.png",
         "layer0.tint": [240, 240, 240],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -218,7 +218,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        // "layer0.texture": "High-Sienna/assets/sidebar/bg.png",
+        // "layer0.texture": "Rexin/assets/sidebar/bg.png",
         "layer0.tint": [217,222,229],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 1, 1],
@@ -235,7 +235,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        // "layer0.texture": "High-Sienna/assets/sidebar/bg-selected.png",
+        // "layer0.texture": "Rexin/assets/sidebar/bg-selected.png",
         "layer0.tint" : [158, 189, 220],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1],
@@ -315,7 +315,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "High-Sienna/assets/sidebar/close.png",
+        "layer0.texture": "Rexin/assets/sidebar/close.png",
         "layer0.inner_margin": 0,
         "layer0.opacity": 0.0,
         "content_margin": [8, 8]
@@ -351,7 +351,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "High-Sienna/assets/sidebar/file-dirty.png",
+        "layer0.texture": "Rexin/assets/sidebar/file-dirty.png",
         "layer0.tint": [127, 127, 127],
         "layer0.opacity": 1.0
     }, 
@@ -359,7 +359,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/sidebar/file-dirty.png",
+        "layer0.texture": "Rexin/assets/sidebar/file-dirty.png",
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0
     }, 
@@ -367,7 +367,7 @@
         "class": "close_button",
         "attributes": ["dirty","hover"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "High-Sienna/assets/sidebar/close.png",
+        "layer0.texture": "Rexin/assets/sidebar/close.png",
         "layer0.tint": [0, 0, 0],
         "layer0.opacity": 1 
     },
@@ -380,7 +380,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "High-Sienna/assets/sidebar/group-closed.png",
+        "layer0.texture": "Rexin/assets/sidebar/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [127, 127, 127],
         "layer0.inner_margin": 0
@@ -399,7 +399,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "High-Sienna/assets/sidebar/group-open.png"
+        "layer0.texture": "Rexin/assets/sidebar/group-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -409,14 +409,14 @@
     // Sidebar folder closed
         {
         "class": "icon_folder",
-        "layer0.texture": "High-Sienna/assets/sidebar/folder_closed.png",
+        "layer0.texture": "Rexin/assets/sidebar/folder_closed.png",
         "layer0.opacity": 0.3,
         "content_margin": [9, 8]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "High-Sienna/assets/sidebar/folder_open.png",
+        "layer0.texture": "Rexin/assets/sidebar/folder_open.png",
         "layer0.opacity": 0.3,
         "content_margin": [9, 8]
     },
@@ -426,26 +426,26 @@
         {
             "keyframes":
             [
-                "High-Sienna/assets/sidebar/folder_loading_01.png",
-                "High-Sienna/assets/sidebar/folder_loading_02.png",
-                "High-Sienna/assets/sidebar/folder_loading_03.png",
-                "High-Sienna/assets/sidebar/folder_loading_04.png",
-                "High-Sienna/assets/sidebar/folder_loading_05.png",
-                "High-Sienna/assets/sidebar/folder_loading_06.png",
-                "High-Sienna/assets/sidebar/folder_loading_07.png",
-                "High-Sienna/assets/sidebar/folder_loading_08.png",
-                "High-Sienna/assets/sidebar/folder_loading_09.png",
-                "High-Sienna/assets/sidebar/folder_loading_10.png",
-                "High-Sienna/assets/sidebar/folder_loading_11.png",
-                "High-Sienna/assets/sidebar/folder_loading_12.png",
-                "High-Sienna/assets/sidebar/folder_loading_13.png",
-                "High-Sienna/assets/sidebar/folder_loading_14.png",
-                "High-Sienna/assets/sidebar/folder_loading_15.png",
-                "High-Sienna/assets/sidebar/folder_loading_16.png",
-                "High-Sienna/assets/sidebar/folder_loading_17.png",
-                "High-Sienna/assets/sidebar/folder_loading_18.png",
-                "High-Sienna/assets/sidebar/folder_loading_19.png",
-                "High-Sienna/assets/sidebar/folder_loading_20.png",
+                "Rexin/assets/sidebar/folder_loading_01.png",
+                "Rexin/assets/sidebar/folder_loading_02.png",
+                "Rexin/assets/sidebar/folder_loading_03.png",
+                "Rexin/assets/sidebar/folder_loading_04.png",
+                "Rexin/assets/sidebar/folder_loading_05.png",
+                "Rexin/assets/sidebar/folder_loading_06.png",
+                "Rexin/assets/sidebar/folder_loading_07.png",
+                "Rexin/assets/sidebar/folder_loading_08.png",
+                "Rexin/assets/sidebar/folder_loading_09.png",
+                "Rexin/assets/sidebar/folder_loading_10.png",
+                "Rexin/assets/sidebar/folder_loading_11.png",
+                "Rexin/assets/sidebar/folder_loading_12.png",
+                "Rexin/assets/sidebar/folder_loading_13.png",
+                "Rexin/assets/sidebar/folder_loading_14.png",
+                "Rexin/assets/sidebar/folder_loading_15.png",
+                "Rexin/assets/sidebar/folder_loading_16.png",
+                "Rexin/assets/sidebar/folder_loading_17.png",
+                "Rexin/assets/sidebar/folder_loading_18.png",
+                "Rexin/assets/sidebar/folder_loading_19.png",
+                "Rexin/assets/sidebar/folder_loading_20.png",
             ],
             "loop": true,
             "frame_time": 0.08,
@@ -468,7 +468,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "High-Sienna/assets/editor/fold-closed.png",
+        "layer0.texture": "Rexin/assets/editor/fold-closed.png",
         "layer0.inner_margin": 0,
         "content_margin": [8, 8],
         "layer0.opacity": 1.0
@@ -476,7 +476,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "High-Sienna/assets/editor/fold-open.png"
+        "layer0.texture": "Rexin/assets/editor/fold-open.png"
     },
 
     // Scroll Bars
@@ -513,7 +513,7 @@
     },
     {
         "class": "scroll_track_control",
-        "layer0.texture": "High-Sienna/assets/scrollbar/light/scroll_bar.png",
+        "layer0.texture": "Rexin/assets/scrollbar/light/scroll_bar.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [4, 4, 3, 4]
@@ -521,11 +521,11 @@
     {
         "class": "scroll_track_control",
         "attributes": ["dark"],
-        "layer0.texture": "High-Sienna/assets/scrollbar/dark/scroll_bar.png",
+        "layer0.texture": "Rexin/assets/scrollbar/dark/scroll_bar.png",
     },
     {
         "class": "puck_control",
-        "layer0.texture": "High-Sienna/assets/scrollbar/light/scroll_puck.png",
+        "layer0.texture": "Rexin/assets/scrollbar/light/scroll_puck.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [0, 12]
@@ -533,7 +533,7 @@
     {
         "class": "puck_control",
         "attributes": ["dark"],
-        "layer0.texture": "High-Sienna/assets/scrollbar/dark/scroll_puck.png"
+        "layer0.texture": "Rexin/assets/scrollbar/dark/scroll_puck.png"
     },
     {
         "class": "scroll_corner_control",
@@ -544,24 +544,24 @@
     {
         "class": "scroll_track_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "High-Sienna/assets/scrollbar/light/scroll_bar_horiz.png",
+        "layer0.texture": "Rexin/assets/scrollbar/light/scroll_bar_horiz.png",
         "content_margin": [4, 4, 4, 3]
     },
     {
         "class": "scroll_track_control",
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "High-Sienna/assets/scrollbar/dark/scroll_bar_horiz.png",
+        "layer0.texture": "Rexin/assets/scrollbar/dark/scroll_bar_horiz.png",
     },
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "High-Sienna/assets/scrollbar/light/scroll_puck_horiz.png",
+        "layer0.texture": "Rexin/assets/scrollbar/light/scroll_puck_horiz.png",
         "content_margin": [12, 0]
     },
     {
         "class": "puck_control",
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "High-Sienna/assets/scrollbar/dark/scroll_puck_horiz.png",
+        "layer0.texture": "Rexin/assets/scrollbar/dark/scroll_puck_horiz.png",
     },
     // Scroll Bars (Sidebar)
     {
@@ -577,12 +577,12 @@
     {
         "class": "scroll_track_control",
         "parents": [{"class": "sidebar_container"}],
-        "layer0.texture": "High-Sienna/assets/sidebar/sidebar_scroll_bar.png",
+        "layer0.texture": "Rexin/assets/sidebar/sidebar_scroll_bar.png",
     },
     {
         "class": "puck_control",
         "parents": [{"class": "sidebar_container"}],
-        "layer0.texture": "High-Sienna/assets/sidebar/sidebar_scroll_puck.png",
+        "layer0.texture": "Rexin/assets/sidebar/sidebar_scroll_puck.png",
     },
     {
         "class": "scroll_corner_control",
@@ -593,13 +593,13 @@
         "class": "scroll_track_control",
         "parents": [{"class": "sidebar_container"}],
         "attributes": ["horizontal"],
-        "layer0.texture": "High-Sienna/assets/sidebar/sidebar_scroll_bar_horiz.png"
+        "layer0.texture": "Rexin/assets/sidebar/sidebar_scroll_bar_horiz.png"
     },
     {
         "class": "puck_control",
         "parents": [{"class": "sidebar_container"}],
         "attributes": ["horizontal"],
-        "layer0.texture": "High-Sienna/assets/sidebar/sidebar_scroll_puck_horiz.png"
+        "layer0.texture": "Rexin/assets/sidebar/sidebar_scroll_puck_horiz.png"
     },
     // Scroll Bars (Switch Project)
     {
@@ -618,12 +618,12 @@
     {
         "class": "scroll_track_control",
         "parents": [{"class": "overlay_control"}],
-        "layer0.texture": "High-Sienna/assets/sidebar/sidebar_scroll_bar.png",
+        "layer0.texture": "Rexin/assets/sidebar/sidebar_scroll_bar.png",
     },
     {
         "class": "puck_control",
         "parents": [{"class": "overlay_control"}],
-        "layer0.texture": "High-Sienna/assets/sidebar/sidebar_scroll_puck.png",
+        "layer0.texture": "Rexin/assets/sidebar/sidebar_scroll_puck.png",
     },
 
 //
@@ -728,7 +728,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "High-Sienna/assets/tooltip/bg.png",
+        "layer0.texture": "Rexin/assets/tooltip/bg.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.98,
         "content_margin": [6, 3]
@@ -747,7 +747,7 @@
         // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "High-Sienna/assets/misc/status-bar-background.png",
+        "layer0.texture": "Rexin/assets/misc/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4, 8, 4]
@@ -780,7 +780,7 @@
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],
-        "layer0.texture": "High-Sienna/assets/misc/btn-large.png",
+        "layer0.texture": "Rexin/assets/misc/btn-large.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6]
     },
@@ -788,7 +788,7 @@
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "High-Sienna/assets/misc/btn-large-on.png"
+        "layer0.texture": "Rexin/assets/misc/btn-large-on.png"
     },
 
 //
@@ -798,7 +798,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "High-Sienna/assets/misc/text-field.png",
+        "layer0.texture": "Rexin/assets/misc/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
         "content_margin": [3, 3, 6, 3]
@@ -808,14 +808,14 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "High-Sienna/assets/misc/text-field-list.png",
+        "layer0.texture": "Rexin/assets/misc/text-field-list.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 4]
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "High-Sienna/assets/misc/text-field-list-hover.png"
+        "layer0.texture": "Rexin/assets/misc/text-field-list-hover.png"
     },
 
 //
@@ -825,7 +825,7 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "High-Sienna/assets/misc/panel-background.png",
+        "layer0.texture": "Rexin/assets/misc/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [2, 3, 2, 1]
@@ -833,7 +833,7 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "High-Sienna/assets/quickpanel/bg.png",
+        "layer0.texture": "Rexin/assets/quickpanel/bg.png",
         "layer0.inner_margin": [10, 16, 10, 10],
         "layer0.opacity": 1.0,
         "content_margin": [4, 16, 4, 10]
@@ -860,14 +860,14 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "High-Sienna/assets/quickpanel/row.png",
+        "layer0.texture": "Rexin/assets/quickpanel/row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "High-Sienna/assets/quickpanel/row-selected.png",
+        "layer0.texture": "Rexin/assets/quickpanel/row-selected.png",
         "color": [55, 55, 78]
     },
     {
@@ -936,14 +936,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "High-Sienna/assets/quickpanel/row.png",
+        "layer0.texture": "Rexin/assets/quickpanel/row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "High-Sienna/assets/quickpanel/row-selected.png"
+        "layer0.texture": "Rexin/assets/quickpanel/row-selected.png"
     },
 
 //
@@ -970,7 +970,7 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "High-Sienna/assets/autocomplete/autocomplete-row-selected.png",
+        "layer0.texture": "Rexin/assets/autocomplete/autocomplete-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [3, 1]
     },
@@ -987,7 +987,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-middle.png",
+        "layer0.texture": "Rexin/assets/panel/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [3, 3]
@@ -995,63 +995,63 @@
     {
         "class": "icon_button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-middle-pressed.png",
+        "layer0.texture": "Rexin/assets/panel/btn-group-middle-pressed.png",
     },
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-middle-selected.png",
+        "layer0.texture": "Rexin/assets/panel/btn-group-middle-selected.png",
     },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-left.png",
+        "layer0.texture": "Rexin/assets/panel/btn-group-left.png",
         "content_margin": [4, 3, 3, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "pressed"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-left-pressed.png"
+        "layer0.texture": "Rexin/assets/panel/btn-group-left-pressed.png"
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-left-selected.png"
+        "layer0.texture": "Rexin/assets/panel/btn-group-left-selected.png"
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-right.png",
+        "layer0.texture": "Rexin/assets/panel/btn-group-right.png",
         "content_margin": [3, 3, 4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "pressed"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-right-pressed.png"
+        "layer0.texture": "Rexin/assets/panel/btn-group-right-pressed.png"
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-group-right-selected.png"
+        "layer0.texture": "Rexin/assets/panel/btn-group-right-selected.png"
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-small.png",
+        "layer0.texture": "Rexin/assets/panel/btn-small.png",
         "content_margin": [4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "pressed"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-small-pressed.png"
+        "layer0.texture": "Rexin/assets/panel/btn-small-pressed.png"
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "High-Sienna/assets/panel/btn-small-selected.png"
+        "layer0.texture": "Rexin/assets/panel/btn-small-selected.png"
     },
 
 //
@@ -1060,38 +1060,38 @@
 
     {
         "class": "icon_regex",
-        "layer0.texture": "High-Sienna/assets/misc/icon-regex-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-regex-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-regex-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-regex-on.png"
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "High-Sienna/assets/misc/icon-case-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-case-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-case-on.png"
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "High-Sienna/assets/misc/icon-word-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-word-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-word-on.png"
     },
 
 //
@@ -1101,26 +1101,26 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "High-Sienna/assets/misc/icon-context-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-context-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-context-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-context-on.png"
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "High-Sienna/assets/misc/icon-buffer-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-buffer-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-buffer-on.png"
     },
 
 //
@@ -1130,38 +1130,38 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "High-Sienna/assets/misc/icon-reverse-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-reverse-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-reverse-on.png"
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "High-Sienna/assets/misc/icon-wrap-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-wrap-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-wrap-on.png"
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "High-Sienna/assets/misc/icon-selection-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-selection-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-selection-on.png"
     },
 
 //
@@ -1171,14 +1171,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "High-Sienna/assets/misc/icon-preserve-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-preserve-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-preserve-on.png"
     },
 
 //
@@ -1188,14 +1188,14 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "High-Sienna/assets/misc/icon-highlight-off.png",
+        "layer0.texture": "Rexin/assets/misc/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/misc/icon-highlight-on.png"
+        "layer0.texture": "Rexin/assets/misc/icon-highlight-on.png"
     }
 
 ]
