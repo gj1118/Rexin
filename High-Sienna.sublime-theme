@@ -407,10 +407,51 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}]
     },
     // Sidebar folder closed
+        {
+        "class": "icon_folder",
+        "layer0.texture": "High-Sienna/assets/sidebar/folder_closed.png",
+        "layer0.opacity": 0.3,
+        "content_margin": [9, 8]
+    },
     {
         "class": "icon_folder",
-        "layer0.texture": "High-Sienna/assets/sidebar/folder.png",
-        "content_margin": [8, 8]
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "layer0.texture": "High-Sienna/assets/sidebar/folder_open.png",
+        "layer0.opacity": 0.3,
+        "content_margin": [9, 8]
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "High-Sienna/assets/sidebar/folder_loading_01.png",
+                "High-Sienna/assets/sidebar/folder_loading_02.png",
+                "High-Sienna/assets/sidebar/folder_loading_03.png",
+                "High-Sienna/assets/sidebar/folder_loading_04.png",
+                "High-Sienna/assets/sidebar/folder_loading_05.png",
+                "High-Sienna/assets/sidebar/folder_loading_06.png",
+                "High-Sienna/assets/sidebar/folder_loading_07.png",
+                "High-Sienna/assets/sidebar/folder_loading_08.png",
+                "High-Sienna/assets/sidebar/folder_loading_09.png",
+                "High-Sienna/assets/sidebar/folder_loading_10.png",
+                "High-Sienna/assets/sidebar/folder_loading_11.png",
+                "High-Sienna/assets/sidebar/folder_loading_12.png",
+                "High-Sienna/assets/sidebar/folder_loading_13.png",
+                "High-Sienna/assets/sidebar/folder_loading_14.png",
+                "High-Sienna/assets/sidebar/folder_loading_15.png",
+                "High-Sienna/assets/sidebar/folder_loading_16.png",
+                "High-Sienna/assets/sidebar/folder_loading_17.png",
+                "High-Sienna/assets/sidebar/folder_loading_18.png",
+                "High-Sienna/assets/sidebar/folder_loading_19.png",
+                "High-Sienna/assets/sidebar/folder_loading_20.png",
+            ],
+            "loop": true,
+            "frame_time": 0.08,
+        },
+        "layer0.opacity": 0.3,
+        "content_margin": [9, 8]
     },
     // Sidebar file icons
     {
