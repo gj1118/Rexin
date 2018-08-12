@@ -219,7 +219,7 @@
     {
         "class": "sidebar_container",
         // "layer0.texture": "Rexin/assets/sidebar/bg.png",
-        "layer0.tint": [217,222,229],
+        "layer0.tint": [235, 237, 239],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 1, 1],
         "content_margin": [0, 1, 0, 0]
@@ -227,34 +227,39 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 4],
-        "indent": 18,
+        "row_padding": [16, 3, 16, 3],
+        "indent": 12,
         "indent_offset": 13,
         "indent_top_level": false,
+        "dark_content": false,
+        "spacer_rows": true
     },
     // Sidebar rows
     {
         "class": "tree_row",
-        // "layer0.texture": "Rexin/assets/sidebar/bg-selected.png",
-        "layer0.tint" : [158, 189, 220],
+        "attributes": ["!hover"],
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1],
-
     },
-    // Sidebar row selected
+    {
+        "class": "tree_row",
+        "attributes": ["selectable", "hover"],
+        "layer0.tint": [69, 74, 85],
+        "layer0.opacity": 0.1,
+    },
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1.0
+        "layer0.tint": [199, 203, 209],
+        "layer0.opacity": 1.0,
     },
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [68, 68, 68],
+        "fg": [128, 128, 128],
+        "font.size": 13,
         "font.bold": true,
-        "shadow_color": [245, 245, 245],
-        "shadow_offset": [0, 1],
-        "font.size": 10,
+        "shadow_color": [255, 255, 255, 0.36],
+        "shadow_offset": [0, 1]
     },
     // Sidebar heading selected
     {
@@ -263,49 +268,21 @@
         "color": [11, 11, 11]
     },
     // Sidebar entry
-    {
+        {
         "class": "sidebar_label",
-        "color": [0,0,0],
-        "font.bold": false,
-        "font.italic": false,
-        "font.size": 13,
+        "fg": [48, 48, 48],
+        "font.size": 12
     },
-    // Sidebar folder entry
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [60, 60, 60]
-
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [40, 40, 40]
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "settings": ["bold_folder_labels"],
-        "color": [60, 60, 60],
-        "font.bold": true
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "settings": ["bold_folder_labels"],
-        "color": [40, 40, 40]
-    },
-    // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [11, 11, 11]
+        "fg": [24, 24, 24],
     },
-    // Sidebar entry transient
     {
         "class": "sidebar_label",
-        "attributes": ["transient"],
-        "font.italic": true
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
     },
 
 //
