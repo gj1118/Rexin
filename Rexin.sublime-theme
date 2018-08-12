@@ -1,36 +1,6 @@
 [
 
 //
-// SETTINGS
-// 
-
-    {
-        "class": "tab_label",
-        "font.face": ".SFNSText-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "sidebar_heading",
-        "font.face": ".SFNSText-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "sidebar_label",
-        "font.face": ".SFNSText-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "label_control",
-        "font.face": ".SFNSText-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "tool_tip_label_control",
-        "font.face": ".SFNSText-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-
-//
 // TAB
 //
 
@@ -349,11 +319,10 @@
         "layer0.opacity": 1 
     },
 
-//
-// SIDEBAR - GENERAL FILE ICONS
-//
+    //
+    // SIDEBAR - GENERAL FILE ICONS
+    //
 
-    // Sidebar group closed
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
@@ -372,7 +341,6 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.tint": [255, 255, 255]
     },
-    // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
@@ -383,8 +351,7 @@
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}]
     },
-    // Sidebar folder closed
-        {
+    {
         "class": "icon_folder",
         "layer0.texture": "Rexin/assets/sidebar/folder_closed.png",
         "layer0.opacity": 0.3,
@@ -430,7 +397,6 @@
         "layer0.opacity": 0.3,
         "content_margin": [9, 8]
     },
-    // Sidebar file icons
     {
         "class": "icon_file_type",
         "layer0.opacity": 0.5,
@@ -656,9 +622,9 @@
         "border_color": ["background", 255, 255, 255, 0.28],
     },
 
-//
-// MINI MAP
-//
+    //
+    // MINI MAP
+    //
 
       {
         "class": "minimap_control",
@@ -680,28 +646,20 @@
         "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
     },
 
-//
-// DIALOG
-//
-
+    // Dialogs
     {
         "class": "dialog",
-        "layer0.tint": [238, 238, 238],
+        "layer0.tint": [235, 237, 239],
         "layer0.opacity": 1.0
     },
-
-//
-// PROGRESS BAR
-//
-
     {
         "class": "progress_bar_control",
-        "layer0.tint": [193, 193, 193],
+        "layer0.tint": [0, 0, 0, 0.06],
         "layer0.opacity": 1.0
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [0, 109, 212],
+        "layer0.tint": [171, 177, 186],
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
@@ -806,15 +764,16 @@
 // TEXT INPUT FIELD
 //
 
-    // Text input field item
+    // // Text input field item
     {
         "class": "text_line_control",
+        "parents": [{"class": "panel_control"}],
         "layer0.texture": "Rexin/assets/misc/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
         "content_margin": [3, 3, 6, 3]
-    },
-
+    },   
+    
     // Text input dropdown
     {
         "class": "dropdown_button_control",
@@ -829,9 +788,9 @@
         "layer0.texture": "Rexin/assets/misc/text-field-list-hover.png"
     },
 
-//
-// PANEL BACKGROUNDS
-//
+    //
+    // PANEL BACKGROUNDS
+    //
 
     // Bottom panel background
     {
@@ -841,12 +800,31 @@
         "layer0.opacity": 1.0,
         "content_margin": [2, 3, 2, 1]
     },
+    {
+        "class": "panel_control",
+        "parents": [{"class": "switch_project_window"}],
+        "layer0.tint": [235, 237, 239]
+    },
 
-//
-// QUICK PANEL
-//
-    // Quick panel background
-     {
+    {
+        "class": "panel_grid_control",
+        "inside_spacing": 4,
+        "outside_hspacing": 4,
+        "outside_vspacing": 4
+    },
+    {
+        "class": "panel_close_button",
+        "layer0.texture": "Theme - Default/common/light/panel_close.png",
+        "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "content_margin": 8
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+    },
+    // Quick Panel
+    {
         "class": "overlay_control",
         "layer0.tint": [235, 237, 239],
         "layer0.opacity": 1.0,
@@ -899,29 +877,13 @@
         "selected_match_fg": [69, 74, 85]
     },
 
-//
-// MINI QUICK PANEL
-//
 
-    // {
-    //     "class": "mini_quick_panel_row",
-    //     "layer0.texture": "Rexin/assets/quickpanel/row.png",
-    //     "layer0.inner_margin": [2, 2, 2, 2],
-    //     "layer0.opacity": 1.0
-    // },
-    // {
-    //     "class": "mini_quick_panel_row",
-    //     "attributes": ["selected"],
-    //     "layer0.texture": "Rexin/assets/quickpanel/row-selected.png"
-    // },
-
-//
-// CODE COMPLETION DROPDOWN
-//
+    //
+    // CODE COMPLETION DROPDOWN
+    //
 
     {
         "class": "popup_control",
-        // "content_margin": [2, 2],
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0
     },
@@ -949,11 +911,10 @@
         "layer0.opacity": 1.0
     },
 
-//
-// BOTTOM PANEL BUTTONS
-//
+    //
+    // BOTTOM PANEL BUTTONS
+    //
 
-    // Button group middle
     {
         "class": "icon_button_control",
         "layer0.texture": "Rexin/assets/panel/btn-group-middle.png",
@@ -971,7 +932,6 @@
         "attributes": ["selected"],
         "layer0.texture": "Rexin/assets/panel/btn-group-middle-selected.png",
     },
-    // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
@@ -988,7 +948,6 @@
         "attributes": ["left", "selected"],
         "layer0.texture": "Rexin/assets/panel/btn-group-left-selected.png"
     },
-    // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
@@ -1005,7 +964,6 @@
         "attributes": ["right", "selected"],
         "layer0.texture": "Rexin/assets/panel/btn-group-right-selected.png"
     },
-    // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
@@ -1022,11 +980,6 @@
         "attributes": ["left", "right", "selected"],
         "layer0.texture": "Rexin/assets/panel/btn-small-selected.png"
     },
-
-//
-// BOTTOM PANEL ICONS - GROUP 1
-//
-
     {
         "class": "icon_regex",
         "layer0.texture": "Rexin/assets/misc/icon-regex-off.png",
@@ -1038,7 +991,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-regex-on.png"
     },
-    // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Rexin/assets/misc/icon-case-off.png",
@@ -1050,7 +1002,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-case-on.png"
     },
-    // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Rexin/assets/misc/icon-word-off.png",
@@ -1062,12 +1013,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-word-on.png"
     },
-
-//
-// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
-//
-
-    // Show search context button
     {
         "class": "icon_context",
         "layer0.texture": "Rexin/assets/misc/icon-context-off.png",
@@ -1079,7 +1024,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-context-on.png"
     },
-    // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Rexin/assets/misc/icon-buffer-off.png",
@@ -1091,12 +1035,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-buffer-on.png"
     },
-
-//
-// BOTTOM PANEL ICONS - GROUP 2
-//
-
-    // Reverse search direction button
     {
         "class": "icon_reverse",
         "layer0.texture": "Rexin/assets/misc/icon-reverse-off.png",
@@ -1108,7 +1046,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-reverse-on.png"
     },
-    // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Rexin/assets/misc/icon-wrap-off.png",
@@ -1120,7 +1057,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-wrap-on.png"
     },
-    // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Rexin/assets/misc/icon-selection-off.png",
@@ -1132,12 +1068,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-selection-on.png"
     },
-
-//
-// BOTTOM PANEL ICONS - GROUP 3
-//
-
-    // Preserve case button
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Rexin/assets/misc/icon-preserve-off.png",
@@ -1149,12 +1079,6 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Rexin/assets/misc/icon-preserve-on.png"
     },
-
-//
-// BOTTOM PANEL ICONS - GROUP 4
-//
-
-    // Highlight results button
     {
         "class": "icon_highlight",
         "layer0.texture": "Rexin/assets/misc/icon-highlight-off.png",
