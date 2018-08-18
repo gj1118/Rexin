@@ -59,6 +59,10 @@ a {
 				<string>#f8eec7</string>
 				<key>selection_foreground</key>
 				<string>#6d819c</string>
+				<key>selection_border_width</key>
+				<string>2</string>				
+				<key>selection_corner_style</key>
+				<string>round</string>
 				<key>selectionBorder</key>
 				<string>#f8eec7</string>
 				<key>shadow</key>
