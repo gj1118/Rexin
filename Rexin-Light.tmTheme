@@ -24,9 +24,9 @@
 				<key>caret</key>
 				<string>#bf209f</string>
 				<key>findHighlight</key>
-				<string>#f8ca00</string>
+				<string>#f8eec7</string>
 				<key>findHighlightForeground</key>
-				<string>#6d819c</string>
+				<string>#323232</string>
 				<key>foreground</key>
 				<string>#61676C</string>
 				<key>guide</key>
@@ -38,7 +38,7 @@
 				<key>inactiveBackground</key>
 				<string>#6d819c</string>
 				<key>inactiveSelection</key>
-				<string>#f8ca00</string>
+				<string>#f8eec7</string>
 				<key>invisibles</key>
 				<string>#D9DBDD</string>
 				<key>lineHighlight</key>
@@ -56,11 +56,11 @@ a {
 }
 </string>
 				<key>selection</key>
-				<string>#f8ca00</string>
+				<string>#f8eec7</string>
 				<key>selection_foreground</key>
 				<string>#6d819c</string>
 				<key>selectionBorder</key>
-				<string>#f8ca00</string>
+				<string>#f8eec7</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
