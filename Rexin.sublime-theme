@@ -7,6 +7,7 @@
     // Tab set
     {
         "class": "tabset_control",
+        "settings" : ["!sienna_mode"],        
         "layer0.texture": "Rexin/assets/misc/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
@@ -19,17 +20,20 @@
     },
     {
         "class": "tabset_control",
+        "settings" : ["!sienna_mode"],        
         "settings": ["enable_tab_scrolling"],
         "content_margin": [3, 0, 3, 3]
     },
     {
         "class": "tabset_control",
+        "settings" : ["!sienna_mode"],        
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
     },
     // Tab element
     {
         "class": "tab_control",
+        "settings" : ["!sienna_mode"],        
         "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
@@ -40,18 +44,21 @@
     // Tab close state
     {
         "class": "tab_control",
+        "settings" : ["!sienna_mode"],        
         "settings": ["show_tab_close_buttons"],
         "content_margin": [12, 3, 7, 3]
     },
     // Tab hover state
     {
         "class": "tab_control",
+        "settings" : ["!sienna_mode"],        
         "attributes": ["hover"],
         "layer0.texture": "Rexin/assets/misc/tab-hover.png"
     },
     // Tab active state
     {
         "class": "tab_control",
+        "settings" : ["!sienna_mode"],        
         "attributes": ["selected"],
         "layer0.texture": "Rexin/assets/misc/tab-active.png"
     },
@@ -66,6 +73,59 @@
         "class": "tabset_control",
         "settings": ["tabs_autowidth"],
         "tab_width": 0
+    },
+
+    // Tab set Sienna Mode
+    {
+        "class": "tabset_control",
+        "settings" : ["sienna_mode"],
+        "layer0.texture": "Rexin/assets/tabs/sienna/bg.png",
+        "layer0.inner_margin": [1, 7],
+        "layer0.opacity": 1.0,
+        "content_margin": [-4, 0, -4, 0],
+        "tab_overlap": 5,
+        "tab_width": 180,
+        "tab_min_width": 45,
+        "tab_height": 24,
+        "mouse_wheel_switch": false
+    },
+    {
+        "class": "tabset_control",
+        "settings" : ["sienna_mode"],
+        "settings": ["mouse_wheel_switches_tabs"],
+        "mouse_wheel_switch": true
+    },
+    // Tab element
+    {
+        "class": "tab_control",
+        "settings" : ["sienna_mode"],
+        "content_margin": [12, 0, 12, 0],
+        "max_margin_trim": 0,
+        "hit_test_level": 0.0,
+        "layer0.texture": "Rexin/assets/tabs/sienna/bg-inactive.png",
+        "layer0.inner_margin": [5, 5],
+        "layer0.opacity": 1.0
+    },
+    // Tab close state
+    {
+        "class": "tab_control",
+        "settings" : ["sienna_mode"],        
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [12, -1, 7, 0]
+    },
+    // Tab hover state
+    {
+        "class": "tab_control",
+        "settings" : ["sienna_mode"],        
+        "attributes": ["hover"],
+        "layer0.texture": "Rexin/assets/tabs/sienna/bg-hover.png"
+    },
+    // Tab active state
+    {
+        "class": "tab_control",
+        "settings" : ["sienna_mode"],        
+        "attributes": ["selected"],
+        "layer0.texture": "Rexin/assets/tabs/sienna/bg-active.png"
     },
 
 //
