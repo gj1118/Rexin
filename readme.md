@@ -30,6 +30,8 @@ If you see any anomalies, you might want to restart Sublime Text.
 ## Settings
 * Use the following setting to make the size of tabs autowidth
     - `"tabs_autowidth": true`
+* Use the following setting to turn on Sienna Mode tabs
+    - `"sienna_mode": false`
 
 
 
